@@ -1,7 +1,17 @@
 # Brick Breaker Game
 
 ## Overview
-This project is a modernized implementation of a classic brick breaker game written in C++ with OpenGL for rendering and GLFW for window and input handling.  
+> **Project status:** This is a Visual Studio C++/OpenGL course project, not a deployed application. The checked-in solution is under `8-2_Assignment/`. Build success, integration tests, SQLite persistence and GoogleTest execution have not been verified in the current repository checks. Treat the feature descriptions below as project documentation, not a current test report.
+
+## Repository layout and review
+
+- [Visual Studio solution](8-2_Assignment/8-2_Assignment.sln)
+- [C++ source and headers](8-2_Assignment/)
+- [Game logic](8-2_Assignment/Collision.cpp) and [data access](8-2_Assignment/DataAccess.cpp)
+
+Open the solution in Visual Studio with matching OpenGL, GLFW, GLEW and SQLite dependencies. Paths mentioned below are local examples and may need adjustment for your installation. The repository includes some generated Visual Studio artifacts; these are historical files and should not be mistaken for source.
+
+This project is a modernized implementation of a classic brick breaker game written in **C++** with OpenGL for rendering and GLFW for window and input handling.  
 Originally developed as a single monolithic file, the codebase has been refactored into modular components that separate game logic, rendering, input, and entity management.  
 The game demonstrates skills in software design, algorithms, data structures, and database integration, and is included as an artifact for my ePortfolio.
 
