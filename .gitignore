@@ -1,0 +1,23 @@
+# IDE-generated files and binaries. Existing tracked files are preserved;
+# this prevents future local builds from adding more of them.
+.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.tlog/
+*.lastbuildstate
+*.log
